@@ -1,0 +1,17 @@
+Header As CanvasComponent:
+    Fill: =RGBA(26, 26, 26, 1)
+    Height: |
+        =204
+    Width: =Max(App.Width, App.MinScreenWidth)
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Image2 As image:
+        Height: =Max(Parent.Height/2)
+        Image: ='ontario-logo--desktop'
+        PaddingLeft: =50
+        Width: =349
+        Y: =(Parent. Height - Image2.Height) / 2
+        ZIndex: =1
+

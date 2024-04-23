@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "739107b5-f9bb-40e9-9b17-66792dcb0830",
+    "Name": "GetMovies",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "84e71ac6-7001-ef11-9f89-0022483cd3ad"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "789f66ea-9a64-47a1-b9ef-1e9f7ec2e746": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1680/1.0.1680.3652/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowDisplayName": {
+          "value": "GetMovies"
+        },
+        "workflowEntityId": {
+          "value": "84e71ac6-7001-ef11-9f89-0022483cd3ad"
+        },
+        "workflowName": {
+          "value": "942eb0a4-0cca-480b-90f1-5907deee100a"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowDisplayName": {
+          "value": "GetMovies"
+        },
+        "workflowEntityId": {
+          "value": "84e71ac6-7001-ef11-9f89-0022483cd3ad"
+        },
+        "workflowName": {
+          "value": "942eb0a4-0cca-480b-90f1-5907deee100a"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "GetMovies"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "789f66ea-9a64-47a1-b9ef-1e9f7ec2e746"
+  }
+}
