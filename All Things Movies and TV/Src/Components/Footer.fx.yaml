@@ -1,0 +1,77 @@
+Footer As CanvasComponent:
+    Fill: =RGBA(77, 77, 77, 1)
+    Height: =204
+    Width: =Max(App.Width, App.MinScreenWidth)
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Image3 As image:
+        Height: =204
+        Image: ='Masked supergraphic'
+        ImagePosition: =ImagePosition.Fill
+        Width: =Parent.Width
+        ZIndex: =1
+
+    Container2 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =Parent.Height/2
+        LayoutAlignItems: =LayoutAlignItems.End
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =5
+        X: =40
+        ZIndex: =6
+
+        Label2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            OnSelect: |-
+                =Launch("https://www.ontario.ca/page/accessibility")
+            Size: =13.5
+            Text: ="Accessibility"
+            Underline: =true
+            Width: =135
+            X: =100
+            Y: =55
+            ZIndex: =1
+
+        Label2_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            OnSelect: |-
+                =Launch("https://www.ontario.ca/page/privacy-statement")
+            Size: =13.5
+            Text: ="Privacy"
+            Underline: =true
+            Width: =86
+            X: =135
+            Y: =55
+            ZIndex: =2
+
+        Label2_2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Size: =13.5
+            Text: ="Contact Us"
+            Underline: =true
+            Width: =120
+            X: =237
+            Y: =55
+            ZIndex: =3
+
+    Container3 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =Parent.Height/2
+        LayoutMode: =LayoutMode.Auto
+        PaddingTop: =5
+        X: =40
+        Y: =Container2.Height
+        ZIndex: =7
+
+        Label3 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            OnSelect: |-
+                =Launch("https://www.ontario.ca/page/copyright-information")
+            Size: =13.5
+            Text: ="© King's Printer for Ontario,2012–24"
+            Underline: =true
+            Width: =406
+            X: =100
+            Y: =109
+            ZIndex: =1
+
